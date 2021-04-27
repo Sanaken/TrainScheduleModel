@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TrainScheduleModel/.vs/TrainScheduleModel/v16
+/TrainScheduleModel/TrainScheduleModel/obj/Debug
