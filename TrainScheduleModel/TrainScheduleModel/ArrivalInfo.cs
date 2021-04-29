@@ -28,7 +28,7 @@ namespace TrainScheduleModel
                     return $"{GetTrainType()} поезд №{TrainIdentifier} ожидает постановки на платформу";
 
                 case Status.Unloading:
-                    return $"{GetTrainType()} поезд №{TrainIdentifier} разгружается на {GetPlatformType()} платформе, завершение в {Finish}";
+                    return $"{GetTrainType()} поезд №{TrainIdentifier} разгружается на {GetPlatformType()} платформе, ветка №{RailwayNumber + 1}, завершение в {Finish}";
 
                 case Status.Done:
                     return $"{GetTrainType()} поезд №{TrainIdentifier} разгружен на {GetPlatformType()} платформе";
